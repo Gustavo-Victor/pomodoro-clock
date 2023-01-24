@@ -1,0 +1,134 @@
+/*app*/
+.app {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.icon-btn svg {
+  stroke-width: 10%;
+  color: #fff;
+}
+
+/*wrapper*/
+.wrapper {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper .main-title {
+  position: relative;
+  top: -20px;
+  font-size: 2.2rem;
+}
+
+/*break session length*/
+.break-session-length {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+/*length control*/
+.length-control {
+  width: 50%;
+  max-width: 250px;
+}
+
+.length-control div {
+  margin-top: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.7rem;
+}
+
+.length-control div strong {
+  font-size: 25px;
+}
+
+/*tier-wrapper*/
+.timer-wrapper {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 270px;
+  height: 190px;
+  border-radius: 50px;
+  border: 7px solid #13353a;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.timer-wrapper #timer-label {
+  font-size: 1.875rem;
+}
+
+.timer-wrapper #time-left {
+  font-size: 3.125rem;
+}
+
+/*timer control*/
+#timer-control {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+}
+
+/*author*/
+.author {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+}
+
+.author a {
+  text-decoration: none;
+  color: #1eccbb;
+  cursor: pointer;
+}
+
+/*audio*/
+#beep {
+  display: none;
+  width: 30px;
+  height: 30px;
+}
+
+/*media queries*/
+@media only screen and (max-width: 520px) {
+  .wrapper {
+    width: 80vw;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .break-session-length {
+    flex-direction: column;
+    gap: 1.1rem;
+  }
+
+  .length-control {
+    width: 100%;
+  }
+}
