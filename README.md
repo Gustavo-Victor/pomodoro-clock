@@ -29,7 +29,7 @@
 
 Este projeto é um contador regressivo feito em React. O projeto faz parte de um [desafio](https://www.freecodecamp.org/learn/front-end-development-libraries/front-end-development-libraries-projects/build-a-25--5-clock) da [freeCodeCamp](https://www.freecodecamp.org) no curso de bibliotecas e frameworks front-end. O intuito do projeto é treinar as habilidades aprendizas durante curso. 
 
-Clique [aqui](https://yxnsm0-5173.csb.app/) para ver o projeto no [CodeSandbox](https://codesandbox.io). 
+Clique [aqui](https://codepen.io/gustavo_victor/pen/LYgEbeW) para ver o projeto no [Codepen](https://codepen.io). 
 
 
 ## 🎨 Layout
@@ -40,9 +40,8 @@ Clique [aqui](https://yxnsm0-5173.csb.app/) para ver o projeto no [CodeSandbox](
 ## 🛠 Tecnologias e Ferramentas
 
 - [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
-- [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- [SASS](https://sass-lang.com/)
 - [ReactJS](https://pt-br.reactjs.org/)
-- [TypeScript](https://www.typescriptlang.org)
 - [React Icons](https://react-icons.github.io/react-icons/)
 - [Vite](https://vitejs.dev/)
 
